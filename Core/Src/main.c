@@ -60,7 +60,7 @@ void SystemClock_Config(void);
   * @brief  The application entry point.
   * @retval int
   */
-//int main(void) не удалять
+int main(void)
 {
 
   /* USER CODE BEGIN 1 */
@@ -70,7 +70,7 @@ void SystemClock_Config(void);
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+  //HAL_Init(); Удалил HAL
 
   /* USER CODE BEGIN Init */
 
